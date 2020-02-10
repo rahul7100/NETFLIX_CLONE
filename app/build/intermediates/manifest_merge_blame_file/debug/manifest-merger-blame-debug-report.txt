@@ -58,23 +58,23 @@
 30        <activity android:name="com.example.login.Class1" />
 30-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:21:9-44
 30-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:21:19-41
-31        <activity android:name="com.example.login.feed" >
-31-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:22:9-28:16
+31        <activity android:name="com.example.login.feed" />
+31-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:22:9-41
 31-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:22:19-39
-32            <intent-filter>
-32-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:23:9-27:25
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:13-65
-33-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:21-62
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:13-73
-35-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:23-70
-36            </intent-filter>
-37        </activity>
-38        <activity android:name="com.example.login.MainActivity" />
-38-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:29:9-49
-38-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:29:19-47
+32        <activity android:name="com.example.login.MainActivity" >
+32-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:9-30:20
+32-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:19-47
+33            <intent-filter>
+33-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:17-69
+34-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:28:17-77
+36-->C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
 39    </application>
 40
 41</manifest>

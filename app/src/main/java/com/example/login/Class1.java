@@ -3,7 +3,9 @@ package com.example.login;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.RatingBar;
+import android.widget.Spinner;
 
 public class Class1 extends AppCompatActivity {
 
@@ -14,5 +16,6 @@ public class Class1 extends AppCompatActivity {
         RatingBar rb =(RatingBar)findViewById(R.id.rat10);
         rb.setEnabled(false);
         rb.setNumStars(3);
+
     }
 }

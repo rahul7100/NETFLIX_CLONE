@@ -680,6 +680,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1126,6 +1127,15 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id edt1
+id edt2
+id edt3
+id edt4
+id edt5
+id edt6
+id edt7
+id edt8
+id edt9
 id end
 id enterAlways
 id enterAlwaysCollapsed

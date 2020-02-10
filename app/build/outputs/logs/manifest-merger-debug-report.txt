@@ -117,23 +117,23 @@ ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifes
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:21:19-41
 activity#com.example.login.feed
-ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:22:9-28:16
+ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:22:9-41
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:22:19-39
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:23:9-27:25
-action#android.intent.action.MAIN
-ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:13-65
-	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:21-62
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:13-73
-	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:23-70
 activity#com.example.login.MainActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:29:9-49
+ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:24:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml:28:27-74
 uses-sdk
 INJECTED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DELL\AndroidStudioProjects\LogIn\app\src\main\AndroidManifest.xml

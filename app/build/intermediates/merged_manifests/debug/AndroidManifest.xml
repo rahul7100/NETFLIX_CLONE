@@ -28,14 +28,14 @@
         <activity android:name="com.example.login.Class3" />
         <activity android:name="com.example.login.Class2" />
         <activity android:name="com.example.login.Class1" />
-        <activity android:name="com.example.login.feed" >
+        <activity android:name="com.example.login.feed" />
+        <activity android:name="com.example.login.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.login.MainActivity" />
     </application>
 
 </manifest>
