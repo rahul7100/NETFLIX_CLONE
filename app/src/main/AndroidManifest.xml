@@ -19,15 +19,15 @@
         <activity android:name=".Class3" />
         <activity android:name=".Class2" />
         <activity android:name=".Class1" />
-        <activity android:name=".feed"/>
+        <activity android:name=".feed">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity android:name=".MainActivity"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
     </application>
 
