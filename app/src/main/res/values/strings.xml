@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Netflix</string>
+    <string name="trw">1. 13 REASONS WHY</string>
+    <string name="bof">2. BIRDS OF PREY</string>
+    <string name="pun">3. PUNISHER</string>
+    <string name="sab">4. SABRINA</string>
+    <string name="el">5. EL CAMINO</string>
+    <string name="lil">6. LITTLE THINGS</string>
+    <string name="hou">7. HAUNTING OF THE HILL HOUSE</string>
+    <string name="unf">8. UNFORTUNATE</string>
+    <string name="def">9. DEFENDERS</string>
+    <string name="st">10. STRANGER THINGS</string>
+    <string name="lost">LOST IN THE SPACE</string>
+    <string name="jes">JESSICA JAMES</string>
+
+    <string name="tr">Follows teenager Clay Jensen, in his quest to uncover the story behind his classmate and crush, Hannah, and her decision to
+        end her life. ... Through Hannah and Clays dual narratives,Thirteen Reasons Why weaves an intricate and heartrending story of confusion
+        and desperation that will deeply affect viewers</string>
+    <string name="bo">Its open season on Harley Quinn when her explosive breakup with the Joker puts a big fat target on her back. Unprotected and on the run, Quinn faces the wrath of narcissistic crime boss Black Mask, his right-hand man, Victor Zsasz,
+        and every other thug in the city. But things soon even out for Harley when she becomes unexpected allies with three deadly women -- Huntress, Black Canary and Renee Montoya.</string>
+    <string name="pu">After exacting revenge on those responsible for the death of his wife and children, Frank Castle uncovers a conspiracy that runs far deeper than New Yorks criminal underworld.
+        Now known throughout the city as The Punisher, he must discover the truth about injustices that affect more than his family alone</string>
+    <string name="sa">Sabrina Spellman is about to turn 16—on Halloween no less. She spends her days hanging with her boyfriend Harvey, and best friends Roz and Susie. However, on her 16th birthday
+        she must fully embrace her witch half through a dark baptism, where she will pledge loyalty to the Dark Lord Satan</string>
+    <string name="e">El Camino: A Breaking Bad Movie is a 2019 American neo-Western crime thriller film that serves as an epilogue to the television series Breaking Bad. Series creator
+        Vince Gilligan wrote, directed, and produced the film, while Aaron Paul reprised his role as Jesse Pinkman</string>
+    <string name="li">Premise. The story revolves around Kavya Kulkarni (Palkar) and Dhruv Vats (Sehgal), a couple in a live-in relationship in Mumbai. The series progresses with everyday life explored through conversation between the couple. The language used is English, with a few sentences in Hindi (used mostly in slang).</string>
+    <string name="ho">Synopsis. In the summer of 1992, Hugh and Olivia Crain and their children—Steven, Shirley, Theodora, Luke, and Nell—move into Hill House to renovate the mansion in order to sell it and build their own house, designed by Olivia</string>
+    <string name="un">Plot. The series follows the adventures of three siblings called the Baudelaire orphans. Snicket explains that very few positive things happen to the children. ... The siblings discover that
+        Count Olaf intends to get his hands on the enormous Baudelaire fortune, which Violet is to inherit when she reaches 18 years of age</string>
+    <string name="de">Premise. Set a few months after the second season of Daredevil, and a month after the first season of Iron Fist, the vigilantes Daredevil, Jessica Jones, Luke Cage,
+        and Iron Fist team up in New York City to fight a common enemy, the Hand.</string>
+    <string name="s">A young boy, Will Byers, goes missing near a top-secret government laboratory. ... As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments,
+        terrifying supernatural forces and one very strange little girl</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+</resources>

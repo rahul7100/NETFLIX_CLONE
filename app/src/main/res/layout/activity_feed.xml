@@ -1,0 +1,286 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#000000"
+tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NETFLIX"
+            android:textColor="#e3242b"
+            android:gravity="center_horizontal"
+            android:textSize="50dp"
+            android:id="@+id/Net"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/Con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue Watching"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:layout_marginTop="70dp"
+            />
+
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Conw">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/Imd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill"
+                android:src="@drawable/bop"
+                android:background="#5f5f5b">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/Imd2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/st"
+                android:background="#5f5f5b">
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/Imd3"
+                android:src="@drawable/hau"
+                android:background="#5f5f5b">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:id="@+id/Imd4"
+                android:src="@drawable/def"
+                android:background="#5f5f5b">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:id="@+id/Imd5"
+                android:src="@drawable/pun"
+                android:background="#5f5f5b">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:id="@+id/Imd6"
+                android:src="@drawable/lost"
+                android:background="#5f5f5b">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:id="@+id/Imd7"
+                android:src="@drawable/sab"
+                android:background="#5f5f5b">
+
+            </ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="05dp"
+                android:id="@+id/Imd8"
+                android:src="@drawable/sac"
+                android:background="#5f5f5b">
+
+            </ImageView>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="TOP 10 on NETFLIX"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:id="@+id/txt1"
+            android:background="@color/black"
+            android:gravity="center_horizontal">
+        </TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:onClick="onClick"
+                android:text="1. 13 REASONS WHY"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn2"
+                android:text="@string/bof"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:onClick="onClick2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn3"
+                android:text="@string/pun"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:onClick="onClick3"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn4"
+                android:text="@string/sab"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:onClick="onClick4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn5"
+                android:text="@string/el"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:onClick="onClick5"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+            </Button><Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn6"
+            android:text="@string/lil"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:onClick="onClick6"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+
+        </Button><Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn7"
+            android:text="@string/hou"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:onClick="onClick7"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="05dp">
+
+        </Button>v<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn8"
+            android:text="@string/unf"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:onClick="onClick8"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp">
+
+        </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn9"
+                android:text="@string/def"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:onClick="onClick9"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn10"
+                android:text="@string/st"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:onClick="onClick10"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
