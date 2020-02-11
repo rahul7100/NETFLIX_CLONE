@@ -14,7 +14,7 @@ public class Class1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class1);
         RatingBar rb =(RatingBar)findViewById(R.id.rat10);
-        rb.setEnabled(false);
+        rb.setEnabled(true);
         rb.setNumStars(3);
 
     }

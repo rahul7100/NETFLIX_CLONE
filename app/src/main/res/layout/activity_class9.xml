@@ -31,7 +31,9 @@
                 android:backgroundTintMode="add"
                 android:max="1"
                 android:progressBackgroundTint="@color/yellow"
-                android:stepSize="1"></RatingBar>
+                android:stepSize="1">
+
+            </RatingBar>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

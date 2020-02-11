@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/nfx"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Class10"></activity>
+        <activity android:name=".pass"></activity>
+        <activity android:name=".signup" />
+        <activity android:name=".Class10" />
         <activity android:name=".Class9" />
         <activity android:name=".Class8" />
         <activity android:name=".Class7" />
@@ -19,16 +21,14 @@
         <activity android:name=".Class3" />
         <activity android:name=".Class2" />
         <activity android:name=".Class1" />
-        <activity android:name=".feed">
-        <intent-filter>
+        <activity android:name=".feed"/>
+
+        <activity android:name=".MainActivity" > <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
-    </activity>
-        <activity android:name=".MainActivity"/>
-
-
+        </activity>
     </application>
 
 </manifest>

@@ -1090,6 +1090,8 @@ id beginning
 id blocking
 id bottom
 id bt1
+id bt2
+id bt3
 id btn1
 id btn10
 id btn2
@@ -1126,6 +1128,9 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id ed1
+id ed2
+id ed3
 id edit_query
 id edt1
 id edt2
@@ -1277,6 +1282,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv1
+id tv2
 id txt1
 id txt2
 id txt3
@@ -1348,6 +1355,8 @@ layout activity_class8
 layout activity_class9
 layout activity_feed
 layout activity_main
+layout activity_pass
+layout activity_signup
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

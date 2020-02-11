@@ -5,7 +5,10 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:background="#000000"
 tools:context=".MainActivity">
-<LinearLayout
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -29,6 +32,7 @@ tools:context=".MainActivity">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="10dp"
         >
 
         <TextView
@@ -38,7 +42,7 @@ tools:context=".MainActivity">
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="40dp"
             android:text="Continue Watching"
-            android:textColor="@color/red"
+            android:textColor="@color/white"
             android:textSize="25dp" />
 
     </LinearLayout>
@@ -60,7 +64,7 @@ tools:context=".MainActivity">
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
                 android:src="@drawable/bop"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
 
@@ -70,7 +74,7 @@ tools:context=".MainActivity">
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/st"
-                android:background="#5f5f5b">
+                >
             </ImageView>
             <ImageView
                 android:layout_width="wrap_content"
@@ -78,7 +82,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="5dp"
                 android:id="@+id/Imd3"
                 android:src="@drawable/hau"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
             <ImageView
@@ -87,7 +91,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd4"
                 android:src="@drawable/def"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
             <ImageView
@@ -96,7 +100,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd5"
                 android:src="@drawable/pun"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
             <ImageView
@@ -105,7 +109,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd6"
                 android:src="@drawable/lost"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
             <ImageView
@@ -114,7 +118,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd7"
                 android:src="@drawable/sab"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
             <ImageView
@@ -123,7 +127,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd8"
                 android:src="@drawable/sac"
-                android:background="#5f5f5b">
+                >
 
             </ImageView>
         </LinearLayout>
@@ -285,5 +289,6 @@ tools:context=".MainActivity">
 
 
 </LinearLayout>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

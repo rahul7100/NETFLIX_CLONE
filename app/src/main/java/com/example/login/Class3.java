@@ -12,7 +12,7 @@ public class Class3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_class3);
         RatingBar rb =(RatingBar)findViewById(R.id.rat1);
-        rb.setEnabled(false);
+        rb.setEnabled(true);
         rb.setNumStars(3);
     }
 }

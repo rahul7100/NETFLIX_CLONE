@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".signup">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="NETFLIX"
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:textAlignment="center">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed1"
+            android:hint="Enter your name"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="100dp">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed2"
+            android:hint="Enter your Email address"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ed3"
+            android:hint="Enter your Mobile Number"
+            android:textColorHint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp">
+
+        </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/bt3"
+        android:text="NEXT"
+        android:background="@color/black"
+        android:textColor="@color/red"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="200dp"
+        android:onClick="onclick12"
+        android:textSize="20dp">
+    </Button>
+    </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
