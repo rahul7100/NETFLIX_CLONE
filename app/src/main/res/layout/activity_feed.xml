@@ -64,6 +64,7 @@ tools:context=".MainActivity">
                 android:layout_height="wrap_content"
                 android:layout_gravity="fill"
                 android:src="@drawable/bop"
+                android:background="#111111"
                 >
 
             </ImageView>
@@ -74,6 +75,7 @@ tools:context=".MainActivity">
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:src="@drawable/st"
+                android:background="#111111"
                 >
             </ImageView>
             <ImageView
@@ -82,6 +84,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="5dp"
                 android:id="@+id/Imd3"
                 android:src="@drawable/hau"
+                android:background="#111111"
                 >
 
             </ImageView>
@@ -91,6 +94,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd4"
                 android:src="@drawable/def"
+                android:background="#111111"
                 >
 
             </ImageView>
@@ -100,7 +104,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd5"
                 android:src="@drawable/pun"
-                >
+                android:background="#111111">
 
             </ImageView>
             <ImageView
@@ -109,6 +113,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd6"
                 android:src="@drawable/lost"
+                android:background="#111111"
                 >
 
             </ImageView>
@@ -118,6 +123,7 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd7"
                 android:src="@drawable/sab"
+                android:background="#111111"
                 >
 
             </ImageView>
@@ -127,9 +133,11 @@ tools:context=".MainActivity">
                 android:layout_marginLeft="05dp"
                 android:id="@+id/Imd8"
                 android:src="@drawable/sac"
+                android:background="#111111"
                 >
 
             </ImageView>
+
         </LinearLayout>
     </HorizontalScrollView>
     <LinearLayout

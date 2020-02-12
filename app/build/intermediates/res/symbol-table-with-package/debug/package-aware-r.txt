@@ -1092,6 +1092,7 @@ id bottom
 id bt1
 id bt2
 id bt3
+id bt4
 id btn1
 id btn10
 id btn2
@@ -1177,6 +1178,7 @@ id line1
 id line3
 id listMode
 id list_item
+id ll1
 id masked
 id message
 id middle
@@ -1462,6 +1464,7 @@ string pun
 string s
 string sa
 string sab
+string sea
 string search_menu_title
 string st
 string status_bar_notification_info_overflow
