@@ -14,8 +14,16 @@ public class pass extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pass);
         Button bt=(Button)findViewById(R.id.bt3);
-    }public void onclick14(View v){
-        Intent it= new Intent(this,feed.class);
+        Button bt1=(Button)findViewById(R.id.bt4);
+    }
+
+    public void onclick15(View v){
+        Intent it= new Intent(this,signup.class);
         startActivity(it);
     }
+    public void onclick16(View v){
+        Intent i= new Intent(this,feed.class);
+        startActivity(i);
+    }
+
 }
